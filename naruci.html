@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="" content="">
+    <title>Vinarija Povratak - NARUČI</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="tm-container">
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                    <div class="tm-site-header media">
+                        <div class="media-body">
+                            <img src="img/logo.png" alt="logo">
+                        </div>         
+                    </div>
+                </div>
+                <div class="tm-col-right">
+                    <nav class="navbar navbar-expand-lg" id="tm-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                            data-toggle="collapse" data-target="#navbar-nav" 
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                            <ul class="navbar-nav text-uppercase">
+                                <li class="nav-item active">
+                                    <a class="nav-link tm-nav-link" href="index.html">O nama</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="vina.html">Vina</a>
+                                </li>                            
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="#">Naruči <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="trgovina.html">Trgovina</a>
+                                </li>
+                            </ul>                          
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="tm-row">
+                <div class="tm-col-left"></div>
+                <main class="tm-col-right tm-contact-main">
+                    <section class="tm-content tm-contact">
+                        <h2 class="mb-4 tm-content-title">Vaša narudžba</h2>
+                        <form id="contact-form" action="" method="POST">
+                            <div class="form-group mb-4">
+                                <input type="text" name="name" class="form-control" placeholder="Ime i prezime:" required="" />
+                            </div>
+                            <div class="form-group mb-4">
+                                <input type="email" name="email" class="form-control" placeholder="E-mail" required="" />
+                            </div>
+
+                            <div class="vine">
+                                <label for="quantity"><span class="ivino">Cabernet Franc </span>>|<span class="stanje"> NA STANJU: 111</span></label>
+                                <input type="number" id="quantity" name="quantity" value="0" min="0" max="100">
+                            </div>
+
+                            <div class="vine">
+                                <label for="quantity"><span class="ivino">Merlot </span>|<span class="stanje"> NA STANJU: 111</span></label>
+                                <input type="number" id="quantity" name="quantity" value="0" min="0" max="100">
+                            </div>
+
+                            <div class="vine">
+                                <label for="quantity"><span class="ivino">Müller-Thurgao </span>|<span class="stanje"> NA STANJU: 111</span></label>
+                                <input type="number" id="quantity" name="quantity" value="0" min="0" max="100">
+                            </div>
+                            <div class="vine">
+                                <label for=""><span class="ivino">Palava </span>|<span class="stanje"> NA STANJU: 111</span></label>
+                                <input type="number" id="quantity" name="quantity" value="0" min="0" max="100">
+                            </div>
+                            <div class="vine">
+                                <label for="quantity"><span class="ivino">Pinot sivi </span>|<span class="stanje"> NA STANJU: 111</span></label>
+                                <input type="number" id="quantity" name="quantity" value="0" min="0" max="100">
+                            </div>
+                            <div class="vine">
+                                <label for="quantity"><span class="ivino">Malvazija </span>|<span class="stanje"> NA STANJU: 111</span></label>
+                                <input type="number" id="quantity" name="quantity" value="0" min="0" max="100">
+                            </div>
+
+                            <div class="vine">
+                                <input type="text" name="adresa" class="form-control" placeholder="Adresa isporuke:" required="" />
+                            </div>
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-big btn-primary">NARUČI</button>
+                            </div>
+                        </form>
+                    </section>
+                </main>
+            </div>
+        </div>        
+
+        <div class="tm-row">
+            <div class="tm-col-left text-center">            
+                <ul class="tm-bg-controls-wrapper">
+                    <li class="tm-bg-control active" data-id="0"></li>
+                    <li class="tm-bg-control" data-id="1"></li>
+                    <li class="tm-bg-control" data-id="2"></li>
+                </ul>            
+            </div>        
+            <div class="tm-col-right tm-col-footer">
+                <footer class="tm-site-footer text-right">
+                    <p class="mb-0">Copyright &#169; 2022. Vinarija Povratak "Žepče"</p>
+                </footer>
+            </div>  
+        </div>
+
+        <div class="tm-bg">
+            <div class="tm-bg-left"></div>
+            <div class="tm-bg-right"></div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html>
